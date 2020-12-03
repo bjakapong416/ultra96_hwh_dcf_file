@@ -13,6 +13,7 @@ vai_c_tensorflow \
 # Example for Caffe
 
 model_name=$1
+
 modelzoo_name=$2
 vai_c_caffe \
 --prototxt ../../AI-Model-Zoo/models/all_models_1.2/caffe/${modelzoo_name}/quantized/Edge/deploy.prototxt \
