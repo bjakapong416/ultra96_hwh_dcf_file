@@ -2,7 +2,12 @@
 
 # Example for Tensorflow
 
-vai_c_tensorflow --frozen_pb=../quantize/deploy_model.pb --arch=./custom.json --output_dir=launchmodel --net_name=SignLanguageMNISTnet --options "{'mode':'normal'}"
+vai_c_tensorflow \
+--frozen_pb=../quantize/deploy_model.pb \
+--arch=./custom.json \
+--output_dir=launchmodel \
+--net_name=SignLanguageMNISTnet \
+--options "{'mode':'normal'}"
 
 
 # Example for Caffe
